@@ -1,6 +1,6 @@
 # F1 TRIBE
 
-Project name: Web page for ‘THE CAL ZONE’
+Project name: f1 stats website
 
 
 Description:This website is dedicated to the people wha are new to this sport or just want to browse through stats of various drivers in formula 1. One can browse through various f1 drivers in the side nav menu. Each driver in the menu has their own introduction and contains various stats like when did the driver started hi career in f1 or no of races won by that driver.
