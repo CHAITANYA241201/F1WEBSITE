@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#banner{
+	background: linear-gradient(rgba(0,0,0,0.5),#007687),url(images/2.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+.logo{
+	width: 120px;
+	position: absolute;
+	top: 4%;
+	left: 10%;
+}
+.banner-text{
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+}
+.banner-text h1{
+	font-size: 70px;
+
+}
+.banner-text p{
+	font-size: 20px;
+	font-style: italic;
+}
+.hamface{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 40%;
+}
+.banner-btn{
+	margin: 70px auto 0;
+}
+.banner-btn a{
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: #fff;
+	border: .5px solid #fff;
+	
+}
+#sidenav{
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	right: -250px;
+	top: 0;
+	background: #007687;
+	z-index: 2;
+	transition: 0.5s;
+
+}
+nav ul li{
+	list-style: none;
+	margin: 50px 20px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#menubtn{
+	width: 50px;
+	height: 50px;
+	background: #007687;
+	text-align: center;
+	position: fixed;
+	right: 30px;
+	top: 20px;
+	border-radius: 3px;
+	z-index: 3;
+	cursor: pointer;
+
+}
+#menubtn img{
+	width: 20px;
+	margin-top: 15px;
+
+}
+.content-text{
+	text-align: left;
+	color: #fff;
+	padding-top: 50px;
+
+}
+.content-text h1{
+	font-size: 50px;
+}
+.content-text p{
+	font-size: 25px;
+	font-style: italic;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center
+}
